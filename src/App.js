@@ -1,7 +1,12 @@
 import React from "react";
+import Navbar from "./Components/Navbar";
+import Main from "./Components/Main";
 
 export default function App(){
     return(
-        <h1>Hello World!</h1>
+       <div>
+         <Navbar/>
+         {/* <Main/> */}
+       </div>
     )
 }
