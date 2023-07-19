@@ -6,7 +6,9 @@ export default function App(){
     return(
        <div>
          <Navbar/>
-         {/* <Main/> */}
+         <Main/>
+         <Main/>
+         <Main/>
        </div>
     )
 }
