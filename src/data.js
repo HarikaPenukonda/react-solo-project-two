@@ -21,7 +21,7 @@ export default [
     },
     {
         id:3,
-        title:"vail",
+        title:"Vail",
         location:"COLORADO",
         googleMapsUrl:"https://www.google.com/maps?output=search&q=vail+colorado&entry=mc&sa=X&ved=2ahUKEwjAg8yYqqWAAxXymmoFHQRJAQUQ0pQJegQIDhAB",
         startDate:"29 DEC, 2021",

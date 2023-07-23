@@ -5,7 +5,7 @@ export default function Main(props){
         <div className="card--container">
             <div className="card">
                 <div className="card--body">
-                    <img src={props.img}
+                    <img src={props.imageUrl}
                         alt="chicago"
                         className="card--image"/>
                     
@@ -16,12 +16,13 @@ export default function Main(props){
                             alt="pin"
                             />
                     <span>  {props.location}   </span>
-                    <span><a href={props.url}>     view on Google Maps</a></span>
+                    <span><a href={props.googleMapsUrl}>     view on Google Maps</a></span>
                     </div>
                     <h3 className="card--title">{props.title}</h3>
                     <div className="card--date">
-                        <span>{props.start} </span> - 
-                        <span> {props.end} </span>
+                        <br></br>
+                        <span>{props.startDate} </span> - 
+                        <span> {props.endDate} </span>
                     </div>
                     <p className="card--desc">{props.description}</p>
                 </div>
